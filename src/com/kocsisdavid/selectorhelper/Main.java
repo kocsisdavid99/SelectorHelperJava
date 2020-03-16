@@ -109,7 +109,7 @@ public class Main {
     public static Document request(String url) {
         Document browser = null;
         try {
-            Document document = Jsoup.connect(url).get();
+            Document document = Jsoup.connect(url).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36").timeout(8000).get();
             browser = document;
         } catch (Exception e) {
             System.out.println("Az oldalt nem sikerült betölteni: " + url);
