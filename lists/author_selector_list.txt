@@ -1,0 +1,7 @@
+.fn
+a[rel=author]
+.author
+.post-author
+.td-post-author.name a
+.meta-author
+a[href~=/author/]

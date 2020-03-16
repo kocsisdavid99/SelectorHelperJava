@@ -1,0 +1,7 @@
+.entry-date
+.date
+.published
+.post-meta-date
+#article-date
+.meta_date
+meta[property=article:published_time]

@@ -1,0 +1,8 @@
+.entry-title>a
+a.post-title
+a.title
+.news-title>a
+.post-title>a
+.title>a
+a[href~=/\d{4}/\d{1,2}/.+]
+a[href~=/\d{4}-\d{1,2}-.+]
