@@ -1,5 +1,6 @@
 .DS_Store
 .idea
+.idea/workspace.xml
 /out/
 # Ignore Gradle project-specific cache directory
 .gradle
